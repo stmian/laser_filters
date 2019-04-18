@@ -10,7 +10,7 @@ A filter made with this software will read in data from the `/scan` message, and
 
 In order to create a custom filter, please follow the instructions on the wiki: http://wiki.ros.org/laser_filters
 
-# Angular Bounds Filter 
+## Angular Bounds Filter 
 
 The Angular Bounds Filter has been created in order to ignore laser scans outside of a certain field of view. The bounds of the obstruction can be set with `lower_angle` and `upper_angle`
 
@@ -20,7 +20,7 @@ In order to run the filter, please use this commmand:
 roslaunch laser_filters angularBoundsFilter.launch
 ```
 
-# Angular Bounds Filter In Place
+## Angular Bounds Filter In Place
 
 The Angular Bounds Filter has been created in order to ignore laser scans within a certain subset of the field of view. The bounds of the obstruction can be set with `lower_angle` and `upper_angle`
 
